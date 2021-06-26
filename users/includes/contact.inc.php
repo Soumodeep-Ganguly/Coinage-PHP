@@ -8,7 +8,7 @@ $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
 
-$mailTo = 'coinage.web@gmail.com';
+$mailTo = YOUR_MAIL_ID; // Your mail id
 $headers = "From: ".$visitor_email;
 
 
