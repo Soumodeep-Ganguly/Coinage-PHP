@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
 	$mail->Password='1st-COINAGE';
 
 	$mail->setFrom($visitor_email,$name);
-	$mail->addAddress('soumodeep.ganguly.007@gmail.com');
+	$mail->addAddress(YOUR_EMAIL_ADDRESS); //Your email address to which email will be send
 	$mail->addReplyTo($visitor_email,$name);
 	$mail->isHTML(true);
 	$mail->Subject='Form Submission: '.$message;
